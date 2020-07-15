@@ -50,10 +50,13 @@
               <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Lineas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Entrar</a>
             </li>
           </ul>
         </div>
@@ -61,12 +64,15 @@
     </nav>
 
     <header class="masthead text-center text-white d-flex">
+
+    
+
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong> Cacao Smart Trade</strong>
-              <!-- <img src="public/logonombre.png" alt=""> -->
+              
             </h1>
             <hr>
           </div>
@@ -87,7 +93,7 @@
             <h2 class="section-heading text-white">Misión</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
-              Promover nacional e internacionalmente productos peruanos derivados del cacao con valor agregado, tomando desde un punto de vista analítico, con criterios socialmente responsable y ambientalmente amigable. Posteriormente realizando la exportación de su producto desde el país de origen hasta el almacén del país destino. 
+              Promover nacional e internacionalmente productos peruanos derivados del cacao con valor agregado, tomando desde un punto de vista analítico, con criterios socialmente responsable y ambientalmente amigable.
             </p>
             <h2 class="section-heading text-white">Visión</h2>
             <hr class="light my-4">
@@ -187,8 +193,10 @@
     </section>
 
     <section class="p-0" id="portfolio">
+
       <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
+
+        <!-- <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="public/servicios2/bg1.png">
               <img class="img-fluid" src="public/servicios2/bg1.png" alt="">
@@ -279,7 +287,48 @@
               </div>
             </a>
           </div>
+        </div> -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="5000">
+              <img src="public/servicios2/bg1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+              <img src="public/servicios2/bg2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+              <img src="public/servicios2/bg3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+              <img src="public/servicios2/bg4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+              <img src="public/servicios2/bg5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+              <img src="public/servicios2/bg6.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
+
       </div>
     </section>
 

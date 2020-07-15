@@ -175,10 +175,11 @@ img::-moz-selection {
   }
 }
 
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../public/header/header5.jpg");
+  background-image: url("../public/header/video.gif");
   background-position: center center;
   background-size: cover;
 }
