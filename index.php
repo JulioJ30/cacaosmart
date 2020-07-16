@@ -31,7 +31,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparent" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <!-- Cacao Smart Trade -->
@@ -70,10 +70,11 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+            <!-- <h1 class="text-uppercase">
               <strong> Cacao Smart Trade</strong>
               
-            </h1>
+            </h1> -->
+            <img src="public/logonombre.png" alt="" class="w-50">
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
@@ -89,7 +90,39 @@
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
+          
+          <div class="col-lg-6 mx-auto text-center">
+            <h2 class="section-heading text-white">Misión</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">
+              Promover nacional e internacionalmente productos peruanos derivados del cacao con valor agregado, tomando desde un punto de vista analítico, con criterios socialmente responsable y ambientalmente amigable.
+            </p>
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <img src="public/mision.jpg" class="w-75" alt="">
+
+          </div>
+
+          <div class="col-lg-6 mx-auto text-center">
+            <img src="public/vision.jpg" class="w-75" alt="">
+          </div>
+
+          <div class="col-lg-6 mx-auto text-center ">
+            <h2 class="section-heading text-white">Visión</h2>
+              <hr class="light my-4">
+              <p class="text-faded mb-4">
+              Consolidarnos como una empresa líder en exportaciones de productos no tradicionales del sector cacao, generando más puestos laborales y mejorando la economía del país. 
+              </p>
+          </div>
+          
+          <div class="col-lg-12 mx-auto  text-center p-3">
+           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Empezar!</a>
+
+          </div>
+
+
+
+          <!-- <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">Misión</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
@@ -101,7 +134,7 @@
             Consolidarnos como una empresa líder en exportaciones de productos no tradicionales del sector cacao, generando más puestos laborales y mejorando la economía del país. 
             </p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Empezar!</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -120,50 +153,7 @@
 
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img1.png" class="w-100 sr-icon-1">
-              <h3 class="mb-3">Derivados</h3>
-              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img2.png" class="w-100 sr-icon-2">
-              <h3 class="mb-3">Emprendimiento</h3>
-              <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img3.png" class="w-100 sr-icon-3">
-
-              <h3 class="mb-3">Fertilizantes y Plaguicidas</h3>
-              <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img4.png" class="w-100 sr-icon-4">
-
-              <h3 class="mb-3">Herramientas</h3>
-              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img5.png" class="w-100 sr-icon-5">
-
-              <h3 class="mb-3">Maquinaria</h3>
-              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img6.png" class="w-100 sr-icon-6">
+              <img src="public/servicios/img6.png" class="w-100 sr-icon-1">
 
               <h3 class="mb-3">Materia Prima</h3>
               <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
@@ -172,21 +162,70 @@
 
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img7.png" class="w-100 sr-icon-7">
+              <img src="public/servicios/img1.png" class="w-100 sr-icon-2">
+              <h3 class="mb-3">Derivados</h3>
+              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
+            </div>
+          </div>
 
-              <h3 class="mb-3">Packing</h3>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="public/servicios/img2.png" class="w-100 sr-icon-3">
+              <h3 class="mb-3">Emprendimiento</h3>
+              <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="public/servicios/img8.png" class="w-100 sr-icon-4">
+
+              <h3 class="mb-3">Asesoramiento</h3>
               <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="public/servicios/img8.png" class="w-100 sr-icon-8">
+              <img src="public/servicios/img7.png" class="w-100 sr-icon-5">
 
-              <h3 class="mb-3">Asesoramiento</h3>
+              <h3 class="mb-3">Envases</h3>
               <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
             </div>
           </div>
+          
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="public/servicios/img3.png" class="w-100 sr-icon-6">
+
+              <h3 class="mb-3">Fertilizantes</h3>
+              <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="public/servicios/img4.png" class="w-100 sr-icon-7">
+
+              <h3 class="mb-3">Herramientas</h3>
+              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="public/servicios/img5.png" class="w-100 sr-icon-8">
+
+              <h3 class="mb-3">Maquinaria</h3>
+              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
+            </div>
+          </div>
+
+          
+
+          
+
+          
 
         </div>
       </div>
